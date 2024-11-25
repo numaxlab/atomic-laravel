@@ -1,0 +1,27 @@
+{
+    "name": "numaxlab/atomic-laravel",
+    "type": "library",
+    "require": {
+        "illuminate/support": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NumaxLab\\Atomic\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NumaxLab\\Atomic\\Laravel\\Providers\\AtomicServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrián Pardellas Blunier",
+            "email": "adrian@numax.org"
+        }
+    ],
+    "minimum-stability": "stable"
+}
