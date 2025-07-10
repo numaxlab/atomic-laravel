@@ -1,4 +1,4 @@
-<section class="org-tier">
+<section {!! $attributes->merge(['class' => 'org-tier']) !!}>
     @if (!empty($header))
         {{ $header }}
     @endif
