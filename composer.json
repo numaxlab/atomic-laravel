@@ -1,10 +1,19 @@
 {
     "name": "numaxlab/atomic-laravel",
+    "description": "Atomic Design Blade components library for Laravel applications",
+    "version": "1.0.0-beta.1",
     "type": "library",
-    "require": {
-        "illuminate/support": "*"
-    },
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrián Pardellas Blunier",
+            "email": "adrian@numax.org"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
     "autoload": {
         "psr-4": {
             "NumaxLab\\Atomic\\Laravel\\": "src/"
@@ -17,11 +26,6 @@
             ]
         }
     },
-    "authors": [
-        {
-            "name": "Adrián Pardellas Blunier",
-            "email": "adrian@numax.org"
-        }
-    ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

@@ -12,7 +12,7 @@ class AtomicServiceProvider extends ServiceProvider
         Blade::anonymousComponentPath(__DIR__ . '/../../resources/views/components', 'numaxlab-atomic');
 
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/numaxlab/atomic'),
+            __DIR__ . '/../../resources/views' => resource_path('views/vendor/numaxlab/atomic'),
         ], ['numaxlab-atomic']);
     }
 
